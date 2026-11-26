@@ -1,12 +1,14 @@
 /* Fotos e vídeos dos trabalhos */
 const CASES = [
-  { t: "Substituição de iluminação", cat: "Iluminação", img: "", video: "assets/videos/substituicao-iluminacao.mp4" },
+  { t: "Iluminação", cat: "Iluminação", img: "", video: "assets/videos/substituicao-iluminacao.mp4" },
   { t: "Iluminação sob medida", cat: "Iluminação", img: "assets/img/projeto-iluminacao-1.jpeg", video: "" },
   { t: "Instalação de luminárias", cat: "Iluminação", img: "assets/img/projeto-iluminacao-2.jpeg", video: "" },
-  { t: "Instalação de motor de portão", cat: "Portões", img: "", video: "assets/videos/portao-instalacao.mp4" },
-  { t: "Portão deslizante", cat: "Portões", img: "assets/img/portao-deslizante.svg", video: "" },
-  { t: "Instalação de cerca e alarme", cat: "Cercas", img: "assets/img/cerca-alarme.svg", video: "" },
-  { t: "Instalação organizada e limpa", cat: "Instalação limpa", img: "assets/img/instalacao-luminarias.jpeg", video: "" }
+  { t: "Portões - vídeo 1", cat: "Portões", img: "", video: "assets/videos/portao-1.mp4" },
+  { t: "Portões - vídeo 2", cat: "Portões", img: "", video: "assets/videos/portao-2.mp4" },
+  { t: "Portões - vídeo 3", cat: "Portões", img: "", video: "assets/videos/portao-3.mp4" },
+  { t: "Portões - vídeo 4", cat: "Portões", img: "", video: "assets/videos/portao-4.mp4" },
+  { t: "Cerca", cat: "Cercas", img: "", video: "assets/videos/cerca.mp4" },
+  { t: "Instalação limpa", cat: "Instalação limpa", img: "", video: "assets/videos/instalacao-limpa.mp4" }
 ];
 const grid=document.getElementById('cases-grid');
 const filters=document.getElementById('filters');
